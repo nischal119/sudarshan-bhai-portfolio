@@ -1,0 +1,96 @@
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+}
+
+#about-a .bio-image {
+  grid-area: bioimage;
+}
+
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem;
+}
+
+#about-a .award-1 {
+  grid-area: aw1;
+}
+
+#about-a .award-2 {
+  grid-area: aw2;
+}
+
+#about-a .award-3 {
+  grid-area: aw3;
+}
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem;
+}
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+#about-b .progress div {
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  background: #ffbc00;
+}
+
+.education {
+  background: #f9fbfd;
+  padding-top: 50px;
+}
+.education-horizontal-timeline {
+  padding: 80px 0;
+}
+
+/*.education-horizontal-timeline*/
+.education-horizontal-timeline .col-sm-4 {
+  padding: 0 2px;
+}
+
+.single-horizontal-timeline .experience-time h3 {
+  text-transform: capitalize;
+}
+.single-horizontal-timeline .experience-time h3 span {
+  text-transform: lowercase;
+}
+.single-horizontal-timeline .timeline-content h5 {
+  margin: 15px 0;
+}
+.single-horizontal-timeline p {
+  color: #999fb3;
+  max-width: 335px;
+}
+
+/*.timeline-horizontal-border*/
+.timeline-horizontal-border {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+}
+.timeline-horizontal-border i {
+  font-size: 10px;
+  color: #d92cf9;
+  margin-right: 5px;
+}
+span.single-timeline-horizontal {
+  display: inline-block;
+  background: #b2c1ce;
+  height: 1px;
+  width: 380px;
+}
+span.single-timeline-horizontal.spacial-horizontal-line {
+  width: 88px;
+}
