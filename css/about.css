@@ -36,15 +36,17 @@
 #about-b .progress {
   overflow: hidden;
   height: 20px;
-  background: #ccc;
+  background: #fff;
   border-radius: 5px;
   margin-bottom: 0.6rem;
 }
-#about-b .progress div {
+#about-b .progress .progress-bar {
   height: 100%;
   color: #fff;
   text-align: center;
   background: #ffbc00;
+  width: 0; /* Initial width is 0 */
+  transition: width 1s ease-in-out; /* Transition for filling animation */
 }
 
 .education {
